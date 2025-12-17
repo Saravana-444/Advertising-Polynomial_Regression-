@@ -31,4 +31,4 @@ if st.button("Predict Sales"):
         X = poly.transform(X)
 
     prediction = model.predict(X)
-    st.success(f"📈 Predicted Sales: {prediction[0]:.2f}units")
+    st.success(f"📈 Predicted Sales: {prediction[0]:.2f} units")
